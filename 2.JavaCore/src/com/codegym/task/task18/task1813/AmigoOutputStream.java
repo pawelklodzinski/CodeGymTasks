@@ -84,7 +84,7 @@ public class AmigoOutputStream extends FileOutputStream {
     @Override
     public void close() throws IOException {
         flush();
-        fileOutputStream.write(appendText.getBytes());
+        write(appendText.getBytes());
         fileOutputStream.close();
     }
 
