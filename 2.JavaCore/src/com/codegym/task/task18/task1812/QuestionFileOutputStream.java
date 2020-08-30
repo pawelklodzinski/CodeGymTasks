@@ -5,6 +5,12 @@ import java.io.*;
 /* 
 Extending AmigoOutputStream
 
+validation
+-----------
+Your solution to the task was better than 65% other students.
+You solved it in 1 attempts. The average number of attempts for this task is 3.3.
+This task has been completed by 555 students.
+
 task
 -----------
 Using the wrapper (decorator) design pattern, extend the functionality of AmigoOutputStream.
@@ -13,7 +19,7 @@ In the QuestionFileOutputStream class, the following functionality should be imp
 2. Read a line.
 3. If the read line is "Y", then close the stream.
 4. If the read line is not "Y", then don't close the stream.
-
++
 
 Requirements:
 1. Don't change AmigoOutputStream.
